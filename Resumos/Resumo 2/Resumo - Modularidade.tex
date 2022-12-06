@@ -1,0 +1,80 @@
+\documentclass{article}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\pagestyle{fancy}
+\lhead{INF01120\\Resumo: Modularidade}
+\rhead{00324422\\Erick Larratéa Knoblich}
+
+\begin{document}
+
+\begin{center}
+
+    \vspace*{-8mm}
+    \textbf{\large{Resumo: Modularidade}}
+    \vspace*{-4.8mm}
+
+\end{center}
+
+\noindent\rule{\textwidth}{0.5pt}
+
+\bigskip
+
+O texto aborda a modularidade e, com isso, o conceito de módulos: partes de um programa bem definidas e únicas, arquitetadas de uma maneira tal que cada uma desempenha sua própria função, sem alterar ou interferir nas demais. Para que tal parte do programa seja, de fato, um módulo bem estruturado, o módulo e o software precisam satisfazer cinco características: decomponibilidade, componibilidade, compreensibilidade, continuidade e proteção.
+
+\bigskip
+
+\noindent\rule{\textwidth}{0.5pt}
+
+\bigskip
+
+\textbf{Decomponibilidade:}
+
+\medskip
+
+A característica de decomponibilidade indica que o software é arquitetado de tal forma que pode ser decomposto em partes menores que simultaneamente têm conexão umas com as outras e são suficientemente diferentes de tal forma que possuem independência uma das outras para realizar suas tarefas sem alterar o resto do software ou interferir nas tarefas de outras partes. Podemos visualizar essa característica como um algoritmo de divisão e conquista que transforma um problema complexo em diversos problemas menores e menos complexo que são resolvidos separadamente.
+
+\medskip
+
+\textbf{Componibilidade:}
+
+\medskip
+
+A característica de componibilidade indica que os módulos são arquitetados de tal forma que podem ser facilmente unidos para a produção de novos sistemas e softwares, principalemente em contextos não originalmente planejados. Podemos visualizar essa característica como uma função de ordenação compatível com outras funções que lidam com inteiros, strings, listas, tuplas e demais elementos ordenáveis por algum parâmetro.
+
+\medskip
+
+\textbf{Compreensabilidade:}
+
+\medskip
+
+A característica de compreensabilidade indica que os módulos do software são arquitetados de tal maneira que um leitor humano consegue compreender com facilidade o que cada módulo é e faz sem ter que ler os demais módulos ou, no pior caso, que tenha que ler uma quantidade pequena de outros módulos.
+
+\medskip
+
+\textbf{Continuidade:}
+
+\medskip
+
+A característica de continuidade indica que os módulos do software são arquitetados de tal maneira que, quando modificados, apenas alteram o comportamento do módulo em questão ou o comportamento de um número pequeno de módulos além de original, ou seja, o software continua como se o seu principal comportamento não tivesse sido alterado, uma vez que uma mudança em módulo não alterou significativamente o software.
+
+\pagebreak
+
+\begin{center}
+
+    \vspace*{-7mm}
+    \textbf{\large{Resumo: Modularidade}}
+    \vspace*{-4.5mm}
+
+\end{center}
+
+\noindent\rule{\textwidth}{0.5pt}
+
+\bigskip
+
+\textbf{Proteção:}
+
+\medskip
+
+A característica de proteção indica que os módulos do software são arquitetados de tal maneira que, quando um evento inesperado ocorre enquanto o software está em execução, o problema causado por essa anormalidade afeta apenas o módulo em que ocorre ou, no pior caso, afeta uma quantidade pequena de módulos além do módulo original, sem mudar completamente o comportamento do software, mantendo assim sua funcionalidade.
+
+\end{document}
